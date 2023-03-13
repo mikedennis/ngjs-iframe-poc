@@ -1,0 +1,38 @@
+{
+  "name": "ngjs-react",
+  "version": "1.0.0",
+  "description": "POC integrating React components into AngularJS",
+  "main": "dist/angularjs-react.js",
+  "scripts": {
+    "build": "webpack --bail",
+    "build:demo": "webpack --config=./src/webpack.config.js --bail",
+    "start": "webpack server --config ./src/webpack.config.js"
+  },
+  "author": "Michael Dennis",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
+    "@babel/preset-react": "7.18.6",
+    "acorn": "^8.8.2",
+    "angular": "1.4.7",
+    "antd": "4.21.6",
+    "babel-loader": "8.2.5",
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "8.4.14",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "7.7.2",
+    "prop-types": "^15.6.2",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "peerDependencies": {
+    "angular": "1.x"
+  }
+}

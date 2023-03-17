@@ -17,13 +17,13 @@
       "moduleResolution": "node",
       "resolveJsonModule": true,
       "isolatedModules": false,
-      "noEmit": true,
       "jsx": "react-jsx",
-      "types": ["node", "cypress"]
+      "outDir": "./build",
+      "rootDir": "./src",
+      "types": ["node"]
     },
     "include": [
-      "src/**/*",
-      "jest-setup.ts",
+      "./src/**/*",
       "**/*.ts"
     ]
   }

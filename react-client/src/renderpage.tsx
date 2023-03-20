@@ -12,10 +12,9 @@ export default function renderPage(
     <html lang="en">
       <head>
         <title>react-client</title>
-        <script type="module" src="/webreactpage.js"/>        
+        <script type="module" src="./webreactpage.js"></script>        
       </head>
       <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
         <h1>Content Below</h1>
         <web-react-page name="John" text="This is from a web component"></web-react-page>            
       </body>
